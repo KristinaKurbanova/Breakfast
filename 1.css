@@ -1,0 +1,268 @@
+body {
+    background-color: #121212;
+    margin: 0;
+}
+
+
+
+/* header */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #121212;
+    padding: 10px;
+    font-family: 'Nunito';
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+
+  .logo img {
+    height: 80px;
+    width: 80px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 60px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ededed;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #FFD037;
+  }
+
+
+
+
+
+
+  /* main */
+  main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFD037;
+  }
+  
+  h1 {
+    font-family: 'Sedgwick Ave Display';
+    font-size: 60pt;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .image {
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+
+  .image img {
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: -100px;
+  }
+
+
+
+
+
+  /* test */
+  .block-test {
+  background-color: #121212;
+  padding: 40px
+  }
+
+    .block-test img {
+     display: ;
+     justify-content: center;
+     align-items: center;
+     margin-left: 30%;
+     margin-top: -50px;
+    }
+
+
+  h2 {
+    color: #ededed;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  table {
+    background-color: #121212;
+    width: auto;
+    border-collapse: collapse;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 12pt;
+    margin-bottom: 10px;
+  }
+
+  .question {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ededed;
+  }
+
+  .answer {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #121212;
+    color: #ededed;
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  .answer2 {
+    padding: 20px 20px;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 30px;
+    background-color: #121212;
+    color: #ededed;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 10pt;
+  }
+
+  .arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .arrow::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-top-color: #ededed;
+  }
+
+
+
+
+/* map */
+  map {
+  background-color: #73D6F9;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }  
+
+
+
+/* finish */
+.text1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFD037;
+    font-family: 'Sedgwick Ave Display';
+    font-size: 60pt;
+    margin-left: 200px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFD037;
+    font-family: 'Sedgwick Ave Display';
+    font-size: 60pt;
+    margin-right: 200px;
+    border-radius: 0px 30px 30px 0px;
+  }
+
+  .finish .image {
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+
+  .finish .image img {
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: -100px;
+  }
+
+
+
+
+/* footer*/
+  footer {
+    font-family: 'Nunito';
+    font-weight: normal;
+    padding: 40px;
+  }
+ .footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer li {
+    margin-left: 60px;
+    font-size: 12pt;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #ededed;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .footer p {
+    font-family: 'Nunito';
+    font-size: 10pt;
+    color: #ededed;
+    margin-left: 60px;
+  }
+
